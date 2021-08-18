@@ -24,12 +24,11 @@ source "${HELPER}"
 # Default to sanitizing the vendor folder before extraction
 CLEAN_VENDOR=true
 
-ONLY_COMMON=
-ONLY_TARGET=
 KANG="--kang"
 SECTION="${2}"
 SRC="adb"
 
+# todo ?
 function blob_fixup() {
     case "${1}" in
         system_ext/lib64/libwfdnative.so)

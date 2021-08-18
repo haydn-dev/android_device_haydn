@@ -18,7 +18,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from lemonade device
+# Inherit from haydn device
 $(call inherit-product, device/xiaomi/haydn/device.mk)
 
 # Inherit some common Lineage stuff.
